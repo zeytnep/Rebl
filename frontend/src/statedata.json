@@ -1,0 +1,43 @@
+[
+  {
+    "id": "AL",
+    "name": "Alabama",
+    "geoCode": "US-AL",
+    "keyword": "pressuring oppositions",
+    "postNumber": 45,
+    "relatedTopics": "Senator failed ..."    
+  },
+  {
+    "id": "CA",
+    "name": "California",
+    "geoCode": "US-VA",
+    "keyword": "corruption",
+    "postNumber": 15,
+    "relatedTopics": "New Bill Passed."    
+  },
+  {
+    "id": "TX",
+    "name": "Texas",
+    "geoCode": "US-TX",
+    "keyword": "Inside job",
+    "postNumber": 2,
+    "relatedTopics": "Senator failed ..."    
+  },
+  {
+    "id": "FL",
+    "name": "Florida",
+    "geoCode": "US-FL",
+    "keyword": "bribery",
+    "postNumber": 33,
+    "relatedTopics": "Insider Reports of Bribery..."    
+  },
+  {
+    "id": "GA",
+    "name": "Georgia",
+    "geoCode": "US-GA",
+    "keyword": "pressuring oppositions",
+    "postNumber": 45,
+    "relatedTopics": "Senator dead ..."    
+  }
+  
+]

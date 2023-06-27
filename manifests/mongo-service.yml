@@ -1,0 +1,17 @@
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: infovize-staging-mongo-service
+  namespace: infovize-staging
+  # labels:
+  #   app: infovize-mongo
+spec:
+  selector:
+    app: infovize-mongo
+  clusterIP: None # To create a headless service
+  ports:
+    - port: 27017
+      targetPort: 27017
+      name: "27017"
+

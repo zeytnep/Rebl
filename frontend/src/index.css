@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;600&family=Nunito&family=Poppins:wght@300;400&display=swap");
+
+:root {
+  --black: #0a0a0a;
+  --grey: #403C3A;
+  --green: #00573B;
+  --palegreen: #008064;
+  --lightgreen: #73E6AA;
+  --white: #FCF9ED;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #0A0A0A;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 3.157rem;
+}
+
+h2 {
+  margin: 0;
+  color: #FCF9ED;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.369rem;
+}
+
+p {
+  margin: 0;
+  color: #FCF9ED;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin:0;
+  background-color: #0A0A0A;
+  padding: 0 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 1.25rem;
+}
+
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--lightgreen); 
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--palegreen); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green); 
+}

@@ -1,0 +1,236 @@
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+
+.my-navbar {
+  background-color: var(--black);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 2rem;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons-nav {
+  width: 100vw;
+  margin-left: 80vw;
+  color: var(--white);
+  align-items: flex-end;
+  justify-content: space-between;
+  filter:drop-shadow(-1px 1px 4px var(--black))
+}
+
+.stats {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.piegraph {
+  align-self: center;
+  align-items: center;
+  /* vertical-align: md; */
+}
+
+.row-graphs {
+  align-self: center;
+  text-align: center;
+}
+
+.stats-widget {
+  /* height: 50vh; */
+  min-height: fit-content;
+  max-height: max-content;
+  width: 75vw;
+  background-color: var(--black);
+  padding: 2vw;
+  border-radius: 20px;
+  color: var(--white);
+  position: relative;
+  top: -50px;
+  animation: fadeInSlide 1s forwards;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    top: -50px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.info-widget {
+  height: 50vh;
+  width: 75vw;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 3rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  color: var(--white);
+  position: relative;
+  top: -100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  animation: fadeInUp 1s backwards;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    top: -100%;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.info-header {
+  color: var(--lightgreen);
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.info-text {
+  color: var(--white);
+  padding-bottom: 1rem;
+  font-size: 14px;
+  text-align: center;
+}
+
+.info {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+
+.site-view {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 3.5rem);
+}
+
+.map-panel {
+  background-color: var(--green);
+  width: 100vw;
+}
+
+.menu-panel {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.menu-header {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.menu {
+  background-color: var(--white);
+  padding: 1vw;
+}
+
+.menu-text {
+  color: var(--black);
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.map-area {
+  width: inherit;
+  height: calc(100vh - 3.5rem);
+
+}
+
+.state-popup {
+  background-color: var(--white);
+  color: var(--green);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 10px;
+  text-align: left;
+  opacity: 0;
+  position: relative;
+  bottom: -50px;
+  animation: stateSlide 0.5s forwards;
+}
+@keyframes stateSlide {
+  0% {
+    opacity: 0;
+    bottom: -50px;
+  }
+  100% {
+    opacity: 80%;
+    bottom: 0;
+  }
+}
+
+.state-title {
+  color: var(--green);
+  text-align: left;
+  font-weight: bold;
+}
+
+.state-text {
+  color: var(--green);
+  text-align: left;
+  padding-left: 1rem;
+}
+
+
+/* ====================== DEFAULT REACT APP VARIABLES BELOW -- DO NOT TOUCH -- =========================================== */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
