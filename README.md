@@ -1,7 +1,5 @@
 # PROJECT REBL
 
-**Project Status** 🠮 Currently in development | Sprint 4
-
 Political corruption is a widespread and persistent problem in societies around the world. It occurs when elected or appointed officials abuse their power for personal gain or the benefit of their associates or supporters. Corruption can take many forms, including bribery, embezzlement, nepotism, cronyism, and favoritism, among others. The effects of political corruption can be devastating, leading to the misallocation of resources, the erosion of public trust, the undermining of democratic institutions, and the perpetuation of inequality and poverty. As such, combating political corruption remains an ongoing challenge for governments, civil society organizations, and individuals alike.
 
 ## Project Overview
